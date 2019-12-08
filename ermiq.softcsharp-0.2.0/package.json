@@ -1,0 +1,27 @@
+{
+	"name": "softcsharp",
+	"displayName": "SoftC#",
+	"description": "SoftC#",
+	"version": "0.4.0",
+	"publisher": "ermiq",
+	"engines": {
+		"vscode": "^1.39.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "SoftC#Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/SoftC#-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "456c21e1-99af-49bd-894c-d48e4af8ecf2",
+		"publisherId": "0a403a32-cfe6-4157-9781-de32d6fee913",
+		"publisherDisplayName": "Ermiq"
+	}
+}
