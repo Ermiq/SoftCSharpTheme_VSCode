@@ -94,8 +94,10 @@
 				"meta.preprocessor",
 				"punctuation.separator.hash",
 				"keyword.preprocessor.define",
+				"keyword.preprocessor.if",
 				"keyword.preprocessor.else",
-				"keyword.preprocessor.endif"
+				"keyword.preprocessor.endif",
+				"entity.name.variable.preprocessor.symbol"
 			],
 			"settings": {
 				"foreground": "#b85fce"
@@ -113,14 +115,16 @@
 			}
 		},
 		{
-			"name": "Operators +, =, <, >, ++, ==, &, |",
+			"name": "Operators +, =, <, >, ++, ==, &, |, ?., ??",
 			"scope": [
 				"keyword.operator.logical",
 				"keyword.operator.assignment",
 				"keyword.operator.comparison",
 				"keyword.operator.increment",
 				"keyword.operator.relational",
-				"keyword.operator.bitwise"
+				"keyword.operator.bitwise",
+				"keyword.operator.null-conditional",
+				"keyword.operator.null-coalescing"
 			],
 			"settings": {
 				"foreground": "#ce6666"
