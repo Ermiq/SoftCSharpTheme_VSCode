@@ -2,10 +2,10 @@
 	"name": "SoftC#",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1a1c1d",
+		"editor.background": "#111111",
 		"editor.foreground": "#ccccccf3",
 		"activityBarBadge.background": "#0a96e7",
-		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarTitle.foreground": "#ececec",
 		"editor.selectionBackground": "#8a8a8a7c",
 		"editor.selectionForeground": "#2600ffd7",
 		"editor.selectionHighlightBackground": "#fcfcfc25",
@@ -22,7 +22,8 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -37,7 +38,7 @@
 				"variable.other.object.property"
 			],
 			"settings": {
-				"foreground": "#c7c7c7"
+				"foreground": "#cecaca"
 			}
 		},
 		{
@@ -46,7 +47,7 @@
 				"variable.other.object"
 			],
 			"settings": {
-				"foreground": "#4f89d6"
+				"foreground": "#5d95df"
 			}
 		},
 		{
@@ -75,7 +76,7 @@
 				"storage.type"
 			],
 			"settings": {
-				"foreground": "#4f89d6"
+				"foreground": "#598fd6"
 			}
 		},
 		{
@@ -94,10 +95,8 @@
 				"meta.preprocessor",
 				"punctuation.separator.hash",
 				"keyword.preprocessor.define",
-				"keyword.preprocessor.if",
 				"keyword.preprocessor.else",
-				"keyword.preprocessor.endif",
-				"entity.name.variable.preprocessor.symbol"
+				"keyword.preprocessor.endif"
 			],
 			"settings": {
 				"foreground": "#b85fce"
@@ -111,11 +110,11 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#6693ce"
+				"foreground": "#56ac53"
 			}
 		},
 		{
-			"name": "Operators +, =, <, >, ++, ==, &, |, ?., ??",
+			"name": "Operators +, =, <, >, ++, ==, &, |",
 			"scope": [
 				"keyword.operator.logical",
 				"keyword.operator.assignment",
@@ -123,8 +122,7 @@
 				"keyword.operator.increment",
 				"keyword.operator.relational",
 				"keyword.operator.bitwise",
-				"keyword.operator.null-conditional",
-				"keyword.operator.null-coalescing"
+				"keyword.operator.pipe"
 			],
 			"settings": {
 				"foreground": "#ce6666"
@@ -137,7 +135,8 @@
 				"keyword.control.loop",
 				"keyword.control.switch",
 				"keyword.control.case",
-				"keyword.control.flow"
+				"keyword.control.flow",
+				"meta.format"
 			],
 			"settings": {
 				"foreground": "#56ac53"
@@ -193,7 +192,9 @@
 				"constant.language",
 				"storage.modifier",
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
+				"constant.character.format",
+				"constant.character.escape"
 			],
 			"settings": {
 				"foreground": "#ce6666"
@@ -206,7 +207,8 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter"
+				"variable.parameter",
+				"meta.function-call.arguments"
 			],
 			"settings": {
 				"foreground": "#c9c9c9"
@@ -217,8 +219,8 @@
 			"scope": [
 				"string.quoted.single",
 				"string.quoted.double",
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end",
+				//"punctuation.definition.string.begin",
+				//"punctuation.definition.string.end",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class"
